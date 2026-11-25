@@ -122,18 +122,3 @@ use, and cite the corresponding papers.
 | M³ (Weibo subset) | training data of M2 | Xing et al., *Is AI Ready for Multimodal Hate Speech Detection? A Comprehensive Dataset and Benchmark Evaluation*, arXiv:2603.21686, 2026 |
 | emo-visual-data | training data of M3 | LLM-Red-Team, *Emo Visual Data*, https://github.com/LLM-Red-Team/emo-visual-data, 2024 |
 
-## Acknowledgements
-
-The code base builds on [Mod-HATE](https://github.com/Social-AI-Studio/Mod_HATE) (Cao et al., WWW 2024).
-
-## Citation
-
-If you use this code or the processed data, please cite the MELoRA paper.
-
-```bibtex
-@article{wang2026melora,
-  title   = {MELoRA: Modular Expert LoRA Fusion for Low-Resource Chinese Harmful Meme Detection},
-  author  = {Wang, Yifan and Lu, Junyu and Zhang, Shun and Liu, Zhiquan and Li, Chaozhuo and Bu, Fanliang},
-  year    = {2026}
-}
-```
