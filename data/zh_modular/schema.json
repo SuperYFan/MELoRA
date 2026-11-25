@@ -1,0 +1,25 @@
+{
+  "format": "Unified instruction-tuning JSON for Chinese modular harmful meme detection.",
+  "fields": {
+    "id": "Stable sample id.",
+    "source": "Original dataset name.",
+    "split": "train/dev/test.",
+    "task": "Module or benchmark task name.",
+    "instruction": "Natural-language task instruction.",
+    "input": "Textual input consumed by the current LLM pipeline.",
+    "output": "Gold answer. For unlabeled test sets this is an empty string.",
+    "image": "Repository-relative image path when available.",
+    "text": "Raw OCR/text content when available.",
+    "label": "Binary label when available. 1 means harmful/toxic/misogyny/offensive for the task.",
+    "label_text": "Chinese verbalizer, 是 for positive and 否 for negative.",
+    "metadata": "Dataset-specific extra fields."
+  },
+  "tasks": {
+    "hate_semantics": "M1, Chinese toxic-language classification on ToxiCN.",
+    "visual_expression": "M3, meme-meaning interpretation on emo-visual-data from VLM-generated image descriptions.",
+    "harmful_meme_detection": "Target benchmark, ToxiCN-MM.",
+    "met_m3_toxicn_reasoning": "M2, hateful-meme reasoning on MET-Meme (Chinese) and the Weibo subset of M3, deduplicated against the ToxiCN-MM test set.",
+    "met_m3_sarcnet_reasoning": "M2, hateful-meme reasoning on MET-Meme (Chinese) and the Weibo subset of M3, deduplicated against the SarcNet test set.",
+    "sarcasm_detection": "Target benchmark, Chinese subset of SarcNet."
+  }
+}

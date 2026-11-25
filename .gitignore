@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Models, checkpoints, and run outputs (not part of the release)
+models/
+lora_modules/
+LoRA/
+predictions/
+outputs/
+results/
+runs/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Files written by the code at run time
+data/zh_modular/**/fewshot_*.json
+data/zh_modular/**/ratio*.json
+*_cache.jsonl
+*_failed.jsonl
+
+# Original images and raw datasets (obtain from the official sources; never committed)
+data/ToxiCN_MM/
+data/ToxiCN-main/
+data/sarcnet/
+data/MET-Meme/
+data/M3-main/
+data/emo-visual-data/
+data/zh_modular/modules/met_meme_reasoning/
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Environment / IDE
+.env
+.idea/
+.vscode/
+.DS_Store
